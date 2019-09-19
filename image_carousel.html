@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="img_carousel.js"></script>
+
+
+    <style>
+        body{
+           background-color:#5B3A32;
+        }
+
+        #slideshow_div {
+            margin: 50px auto;
+            position: relative;
+            width: 700px;
+            height: 400px;
+            padding: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+            background-color:white;
+        }
+
+        #slideshow_div>div {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+        }
+        img{
+            height:400px;
+            width:700px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="slideshow_div">
+        <div><img class="active" src="choco-pie.jpg"></div>
+        <div> <img src="fruity-orange-ice-cream.jpg"></div>
+        <div> <img src="diseno.jpg"  ></div>
+        <div> <img src="ice-cream-balls.jpg"></div>
+        <div><img src="icecream-choco.jpg"></div>
+
+
+    </div>
+</body>
+
+</html>
